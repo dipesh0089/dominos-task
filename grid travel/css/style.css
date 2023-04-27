@@ -124,8 +124,140 @@ body{font-family: sans-serif;}
             border-radius: 5px;
             font-weight: bold;
             color: white;
+        }
+
+        .header
+        {
+            text-align: center;
+            padding: 200px;
+        }
+        .header h1
+        {
+            font-size: 50px;
+            border: 1px solid;
+            padding: 10px 0;
+            color: white;
+        }
+        .header p
+        {
+            font-size: 20px;
+            border: 1px solid;
+            padding: 10px 0;
+            color: white;
+        }
+
+        /* end */
+
+
+        /* second start */
+
+        .second
+        {
+            background: #2a8ded;
+            padding: 20px;
+            display: grid;
+            grid-template-rows: 1fr 0.5fr 2fr 1fr;
+        }
+        @media(max-width: 500px)
+        {
+            .second{grid-template-rows: 1fr;}
+        }
+
+        .second .fthvabc
+        {
+            border: 1px solid;
+            padding: 20px;
+            background: #F3F6FD;
             
-            
+
+        }
+       
+
+        .fthvabc button
+        {
+            border: 1px solid blueviolet;
+            /* background: tomato; */
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .second .trip
+        {
+            border: 1px solid;
+            padding: 20px;
+            background: wheat;
+            text-align: center;
+        }
+        .trip button
+        {
+            padding: 10px 20px;
+            margin-right: 20px;
+            font-weight: bold;
+            font-size: 16px;
+            border: none;
+            background: none;
+        
+        }
+        .second .calculate
+        {
+            border: 1px solid;
+            padding: 20px;
+            background: tomato;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1.5fr 0.5fr;
+            gap: 20px;
+        }
+        @media(max-width: 500px)
+        {
+            .second .calculate{grid-template-columns: 1fr;}
+        }
+        .calculate .one-way-col
+        {
+            border: 1px solid;
+            background: #8b3eea17;
+            padding: 10px 10px 10px 15px;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        .one-way-col .one-way-col-row
+        {
+            border: 1px solid;
+            padding: 6px 0;
+        }
+        .one-way-col-row p
+        {
+            color: #818090;
+        }
+        .oncol
+        {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 10px;
+        
+        }
+        .oncol .rowcolicon
+        {
+            padding: 0 15px;
+        }
+
+        .second .bsearch
+        {
+            border: 1px solid;
+            padding: 20px;
+            background: yellowgreen;
+            text-align: center;
+        }
+        .bsearch button
+        {
+            background: blueviolet;
+            color: white;
+            /* font-weight: bold; */
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
         }
 
 
